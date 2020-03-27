@@ -1,0 +1,92 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "arrow-parens": 0,
+    "camelcase": 0,
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "ignore"
+      }
+    ],
+    "consistent-return": 0,
+    "curly": [
+      2,
+      "multi-line"
+    ],
+    "indent": 0,
+    "linebreak-style": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "jsx-a11y/href-no-hash": 0,
+    "max-len": 0,
+    "no-shadow": "off",
+    "no-continue": 0,
+    "no-mixed-operators": 0,
+    "no-useless-concat": 0,
+    "no-useless-constructor": 0,
+    "prefer-template": 0,
+    "object-curly-spacing": 0,
+    "no-console": 0,
+    "no-lone-blocks": 0,
+    "no-nested-ternary": 0,
+    "no-restricted-syntax": [
+      "error",
+      "ForInStatement",
+      "LabeledStatement",
+      "WithStatement"
+    ],
+    "no-return-assign": 0,
+    "import/extensions": 0,
+    "no-plusplus": [
+      "error",
+      {
+        "allowForLoopAfterthoughts": true
+      }
+    ],
+    "no-unused-expressions": [
+      "error",
+      {
+        "allowShortCircuit": true
+      }
+    ],
+    "no-use-before-define": "off",
+    "one-var": 0,
+    "radix": [
+      "error",
+      "as-needed"
+    ],
+    "react/jsx-indent": 0,
+    "react/jsx-indent-props": 0,
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "react/no-danger": 0,
+    "react/no-unescaped-entities": 0,
+    "react/prop-types": 0,
+    "react/sort-comp": [
+      2,
+      {
+        "order": [
+          "lifecycle",
+          "everything-else",
+          "render"
+        ]
+      }
+    ],
+    "react/jsx-props-no-spreading": "off",
+    "quote-props": [
+      2,
+      "as-needed"
+    ]
+  }
+}
