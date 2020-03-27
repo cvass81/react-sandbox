@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import MuiSnackbar from '@material-ui/core/Snackbar';
 import Alert from '@material-ui/lab/Alert';
 
