@@ -1,12 +1,12 @@
 import React from 'react';
 import SnackbarTest from './components/SnackbarTest';
-import {SnackbarProvider} from './modules/Snackbar';
+import { SnackbarProvider } from './modules/Snackbar';
 
 function App() {
     return (
         <div className="App">
             <SnackbarProvider>
-                <SnackbarTest/>
+                <SnackbarTest />
             </SnackbarProvider>
         </div>
     );

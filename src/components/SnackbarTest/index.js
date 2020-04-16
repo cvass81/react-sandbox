@@ -1,1 +1,1 @@
-export {default} from './SnackbarTest.jsx';
+export { default } from './SnackbarTest.jsx';

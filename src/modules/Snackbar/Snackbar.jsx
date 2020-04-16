@@ -18,7 +18,7 @@ const snackbarStyles = makeStyles(
             },
         },
     }),
-    {name: 'Snackbar'}
+    { name: 'Snackbar' },
 );
 
 const Snackbar = React.forwardRef((props, ref) => {
@@ -33,9 +33,9 @@ const Snackbar = React.forwardRef((props, ref) => {
     return (
         <MuiSnackbar
             ref={ref}
-            anchorOrigin={{vertical: 'top', horizontal: 'center'}}
+            anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
             autoHideDuration={autoHideDuration}
-            classes={{anchorOriginTopCenter: classes.anchorOriginTopCenter}}
+            classes={{ anchorOriginTopCenter: classes.anchorOriginTopCenter }}
             {...other}
         >
             <Alert
